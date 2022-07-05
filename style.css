@@ -1,29 +1,52 @@
 body
 {
-    background-color: beige;
+
+    background-color: rgb(137, 136, 131);
 }
 
 .un
 { 
-    padding: 50px;
+    padding: 3%;
     color: white;
+}
+
+ul , li
+{
+
+    display: inline;
 }
 
 a
 {
+
     background-color: rgb(50, 50, 50,0.6);
-    padding-inline-start: 10px;
-    margin-left: 100px;
-    
+    margin-left: 10px;  
 }
 
-.deux
+.cadre
 {
-    margin-left: 5%;
-    margin-right: 5%;
+
+    display: block;
     width: 90%;
-    height: 1000PX;
+    height: auto;
+    align-items: center;
+    margin-left: 5%;
+ 
     background-color: coral;
+}
+
+.souscadre
+{
+    
+    display: flex;
+}
+
+.souscadreun
+{
+    text-align:right;
+    
+    display: flex;
+    align-items: center;
 }
 
 img
@@ -34,4 +57,9 @@ img
     width: 250px;
     height: 250px;   
 } 
+
+footer
+{
+    text-align: center;
+}
 
