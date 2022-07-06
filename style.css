@@ -1,65 +1,41 @@
-body
+.banniere
 {
 
-    background-color: rgb(137, 136, 131);
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: grey;
 }
 
-.un
-{ 
-    padding: 3%;
-    color: white;
+.titre
+{
+
+    width: 100%;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 60px;
+    align-items:center;
+   
+}
+
+.ndbarre
+{
+    display:flex;
+    background-color: darkgrey;
+    width: 100%;
+    height: 40px;
 }
 
 ul , li
 {
-
-    display: inline;
-}
-
-a
-{
-
-    background-color: rgb(50, 50, 50,0.6);
-    margin-left: 10px;  
-}
-
-.cadre
-{
-
-    display: block;
-    width: 90%;
-    height: auto;
-    align-items: center;
-    margin-left: 5%;
- 
-    background-color: coral;
-}
-
-.souscadre
-{
-    
     display: flex;
+    flex-direction:row;
+    padding-block-start: 5px;
+    text-align: start;
+    align-items:center;
+    padding: 10px;
+
 }
-
-.souscadreun
-{
-    text-align:right;
-    
-    display: flex;
-    align-items: center;
-}
-
-img
-{
-    
-    margin-top: 3%;
-    margin-left: 3%;
-    width: 250px;
-    height: 250px;   
-} 
-
-footer
-{
-    text-align: center;
-}
-
