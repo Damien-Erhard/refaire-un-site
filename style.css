@@ -15,6 +15,7 @@
 
 h1
 {
+    
     text-align: center;
     font-size: 60px;
     align-items:center;
@@ -38,4 +39,26 @@ ul , li
     align-items:center;
     padding: 10px;
 
+}
+
+.boite
+{
+    display: flex;
+    background-color: grey;
+    width: 93%;
+    height: 900px;
+    margin: 3%;
+}
+
+img
+{
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+.untitre
+{
+    display: flex;
+    margin: 2%;
 }
